@@ -9,7 +9,9 @@
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/4d38a55818.js" crossorigin="anonymous"></script>
+        <!-- Devicon -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
@@ -38,19 +40,27 @@
         </nav>
         <!-- Masthead-->
         <header class="masthead">
-            <div class="profile-picture">
-
+            <div class="masthead-container">
+                <div class="profile-picture">
+                    <img class="profile-pic" src="assets/img/profile/2.png" alt="tai-huynh-profile">
+                </div>
+                <div class="text-content">
+                    <h1>Welcome! I'm Tai<br>
+                        <span>I'm a </span><span id="typed-strings">
+                            <span>Gamer</span>
+                            <span>Full-stack Developer</span>
+                            <span>Leader</span>
+                        </span>
+                        <span id="typed"></span>
+                    </h1>
+                    <div class="contact-icons">
+                        <i class="fab fa-github"></i>
+                        <i class="fab fa-angellist"></i>
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <button class="text-content-resume">Resume</button>    
+                </div>
             </div>
-            <div class="text-content">
-                <h1>Welcome! I'm Tai<br>
-                    <span>I'm a </span><span id="typed-strings">
-                        <span>Gamer</span>
-                        <span>Full-stack Developer</span>
-                        <span>Leader</span>
-                    </span>
-                    <span id="typed"></span>
-                </h1>
-            </div>               
             
             <script>
                 document.addEventListener("DOMContentLoaded", function (event) {
@@ -58,40 +68,57 @@
                     movingBackgroundImage();
                 });
             </script>
-
             <script type="text/javascript" src="./main.70a66962.js"></script>
             
         </header>
         <!-- Services-->
-        <section class="page-section" id="services">
+        <section class="page-section" id="skills">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Services</h2>
+                    <h2 class="section-heading text-uppercase">Skills</h2>
                 </div>
                 <div class="row text-center">
-                    <div class="col-md-4">
+                    <div class="skill-icons">
                         <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                            <i class="fab fa-js-square fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">E-Commerce</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <h4 class="my-3">JavaScript</h4>
                     </div>
-                    <div class="col-md-4">
+                    <div class="skill-icons">
                         <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                            <i class="fab fa-react fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">Responsive Design</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <h4 class="my-3">React</h4>
                     </div>
-                    <div class="col-md-4">
+                    <div class="skill-icons">
                         <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                            <i class="fab fa-node fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">Web Security</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <h4 class="my-3">Node</h4>
+                    </div>
+                    <div class="skill-icons">
+                        <span class="fa-stack fa-4x">
+                            <i class="fab devicon-ruby-plain colored fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Ruby</h4>
+                    </div>
+                    <div class="skill-icons">
+                        <span class="fa-stack fa-4x">
+                            <i class="devicon-rails-plain colored fab fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Rails</h4>
+                    </div>
+                    <div class="skill-icons">
+                        <span class="fa-stack fa-4x">
+                            <i class="devicon-d3js-plain colored fab fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">D3.js</h4>
+                    </div>
+                    <div class="skill-icons">
+                        <span class="fa-stack fa-4x">
+                            <i class="devicon-postgresql-plain colored fab fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">PostgreSQL</h4>
                     </div>
                 </div>
             </div>
