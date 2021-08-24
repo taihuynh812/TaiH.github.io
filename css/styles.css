@@ -1165,9 +1165,9 @@ progress {
   }
 
   .skill-icons {
+    padding-top: 20px;
     flex: 0 0 auto;
-    width: 20%;
-    border: 1px solid black
+    width: 16.6667%;
   }
 
   .col-md-5 {
@@ -11455,7 +11455,7 @@ header.masthead {
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 12rem;
-    padding-bottom: 7.5rem;
+    padding-bottom: 12.5rem;
   }
 }
 
@@ -11788,28 +11788,11 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-span .fab{
+.skill-icon{
   font-size: 70px;
 }
 
-span .fa-js-square{
-  top: 0;
-  color: rgb(240, 240, 0);
-}
-
-span .fa-react{
-  top: 0;
-  color: #1ac6ff;
-}
-
-span .fa-node{
-  top: 0;
-  color: #00cc00;
-}
-
-span .fab{
-  vertical-align: bottom;
-  bottom: 0;
-  box-sizing: border-box;
-  border: 1px black solid;
+div .fa-map-marked{
+  height: 75px;
+  color: var(--bs-blue)
 }
