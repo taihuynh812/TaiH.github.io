@@ -11438,18 +11438,38 @@ header.masthead {
 .text-content-resume{
   font-size: 20px;
   background-color: #ffc800;
-  height: 50px;
-  width: 150px;
+  height: 60px;
+  width: 250px;
   border: none;
   border-radius: 5px;
   font-weight: bold;
 }
 
 .text-content{
-  min-width: 600px;
+  min-width: 500px;
   flex: 0 0 auto;
   display: block;
   align-content: center;
+}
+
+.welcome-greeting{
+  font-size: 50px;
+}
+
+.i-am-a-container{
+  font-size: 26px;
+  display: flex;
+  justify-content: center;
+  width: 500px;
+}
+
+.i-am-a{
+  font-size: 26px;
+  font-weight: lighter;
+}
+
+#typed-strings{
+  font-size: 26px;
 }
 
 @media (min-width: 768px) {
