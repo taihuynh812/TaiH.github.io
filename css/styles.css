@@ -674,13 +674,22 @@ progress {
   margin-right: calc(var(--bs-gutter-x) * -.5);
   margin-left: calc(var(--bs-gutter-x) * -.5);
 }
+
 .row > * {
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
+  flex-wrap: wrap;
   padding-right: calc(var(--bs-gutter-x) * .5);
   padding-left: calc(var(--bs-gutter-x) * .5);
   margin-top: var(--bs-gutter-y);
+}
+
+.row > .skill-icons{
+  max-width: 50%;
+  width: 220px;
+  flex-wrap: wrap;
+  margin: 0 0 auto;
 }
 
 .col {
@@ -1167,7 +1176,9 @@ progress {
   .skill-icons {
     padding-top: 20px;
     flex: 0 0 auto;
-    width: 16.6667%;
+    min-width: 16.6667%;
+    max-width: 200px;
+    flex-wrap: wrap;
   }
 
   .col-md-5 {
@@ -11420,7 +11431,7 @@ header.masthead {
 }
 
 .profile-pic{
-  height: 450px;
+  max-height: 450px;
   width: auto;
   padding-bottom: 50px;
 }
